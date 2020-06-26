@@ -29,7 +29,6 @@ namespace microsrv
 {
     public class Publisher
     {
-        static IProducer<string, string> producer = null;
         static ProducerConfig producerConfig = null;
 
         public static async void SendMessage(Logger log, string hostNameAndPort) {
